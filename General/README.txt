@@ -1,0 +1,1 @@
+This folder contains general VHDL setup code and notes about the VHDL language.
