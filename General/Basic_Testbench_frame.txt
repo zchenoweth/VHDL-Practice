@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity <testbench name> is
+end <testbench name>;
+
+architecture tb_arch of <testbench name> is
+    											-- signal declaration goes here
+begin
+
+    uut: entity work.<entity to test name>(<architecture to test name>)			-- uut or unit under testing declaration to let the system know what entity you are testing
+        port map();
+            
+            
+    process begin
+    											-- This section is where you would assign values to the input signals
+    end process;
+      
+end tb_arch;
