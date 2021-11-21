@@ -17,20 +17,20 @@ begin
     process begin
         
         -- Test Input 1
-        a <= '0';
-        b <= '0';
+        A <= '0';
+        B <= '0';
         wait for 100ns;
         -- Test Input 2
-        a <= '0';
-        b <= '1';
+        A <= '0';
+        B <= '1';
         wait for 100ns;
         -- Test Input 3
-        a <= '1';
-        b <= '0';        
+        A <= '1';
+        B <= '0';        
         wait for 100ns;
         -- Test Input 4
-        a <= '1';
-        b <= '1';        
+        A <= '1';
+        B <= '1';        
         wait for 100ns;
         -- Terminate Simulation
         assert false
